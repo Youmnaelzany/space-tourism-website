@@ -30,5 +30,5 @@ export default function CrowLayout({
     };
   }, []);
 
-  return <div className="max-w-screen-2xl mx-auto">{children}</div>;
+  return <div className="max-w-(--breakpoint-2xl) mx-auto">{children}</div>;
 }

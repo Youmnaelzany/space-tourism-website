@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bellefair.className} ${barlowCondensed.className} ${barlow.className} antialiased max-w-screen-2xl`}
+        className={`${bellefair.className} ${barlowCondensed.className} ${barlow.className} antialiased max-w-(--breakpoint-2xl)`}
       >
         <Header />
         {children}

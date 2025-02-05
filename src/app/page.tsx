@@ -50,7 +50,7 @@ export default function Home() {
           this world experience!
         </p>
       </div>
-      <div className="size-[15.375rem] sm:size-[22.125rem] lg:size-[28.125rem] rounded-full hover:bg-white/10 hover:backdrop-blur-sm flex items-center justify-center">
+      <div className="size-[15.375rem] sm:size-[22.125rem] lg:size-[28.125rem] rounded-full hover:bg-white/10 hover:backdrop-blur-xs flex items-center justify-center">
         <div className="lg:size-[17.125rem] sm:size-[15.125rem] size-[9.375rem] rounded-full bg-white flex items-center justify-center">
           <Link
             href="/destination"

@@ -44,7 +44,7 @@ export default function Header() {
         <Image src={Logo} alt="logo" width={48} height={48} />
       </div>
       <div className="hidden sm:block">
-        <nav className="flex items-center justify-start sm:w-[28.125rem] lg:w-[42.875rem] sm:h-24 bg-white/10 backdrop-blur-sm lg:pl-20 sm:pl-12">
+        <nav className="flex items-center justify-start sm:w-[28.125rem] lg:w-[42.875rem] sm:h-24 bg-white/10 backdrop-blur-xs lg:pl-20 sm:pl-12">
           <ul className="flex items-center justify-between font-normal gap-x-10">
             {navItems.map((item) => (
               <li
